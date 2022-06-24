@@ -1,0 +1,20 @@
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let s of listesubcategories;let index=index">
+      <th scope = "row">{{index+1}}</th>
+      <td>{{s.name}}</td>
+      <td>{{s.description}}</td>
+   
+    </tr>
+  </tbody>
+</table>
+
